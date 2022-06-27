@@ -12,6 +12,10 @@
     object-fit: cover;
 }
 
+.mobile {
+    display: none;
+}
+
 /* .mask::after {
     content: "";
     width: 100%;
@@ -68,5 +72,13 @@
 
     .spline {
         display: none;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: inherit;
     }
 }

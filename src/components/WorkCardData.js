@@ -1,17 +1,18 @@
 import pro1 from "../assets/project1.png";
 import pro2 from "../assets/project2.png";
 import pro3 from "../assets/project3.png";
+import pro4 from "../assets/scr1.png";
 
 const ProjectCoreData = [
     {
-        imgsrc: pro1,
-        title: "Ecommerce Website Design",
+        imgsrc: pro4,
+        title: "Trustle",
         text: "Thriving Facebook community and top-ranked podcast, Amy inspires a grounded, tangible and self-affirming sense of WOW!",
         view: "https://www.youtube.com/"
     },
     {
         imgsrc: pro2,
-        title: "LMS/Course Website Design",
+        title: "Rentatool",
         text: "Thriving Facebook community and top-ranked podcast, Amy inspires a grounded, tangible and self-affirming sense of WOW!",
         view: "https://www.youtube.com/"
     },

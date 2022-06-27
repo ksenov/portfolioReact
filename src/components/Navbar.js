@@ -48,8 +48,6 @@ const Navbar = () => {
                 ) : (
                     <FaBars size={20} style={{ color: "#fff" }} />
                 )}
-                
-                
             </div>
         </div>
     );
