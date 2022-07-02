@@ -2,7 +2,7 @@ import "./HeroImgStyles.css";
 import { Link } from "react-router-dom";
 import React, { Suspense } from "react";
 import IntroImg from "../assets/bg-main.png";
-import IntroImgMob from "../assets/BgMobile.png";
+import IntroImgMob from "../assets/mob-bg.png";
 
 const Spline = React.lazy(() => import('@splinetool/react-spline'));
 
@@ -11,7 +11,9 @@ const HeroImg = () => {
         <div className="hero">
             <div className="mask">
                 <img className="into-img desktop" src={IntroImg} alt="IntroImg" />
-                <img className="into-img mobile" src={IntroImgMob} alt="IntroImgMob" />
+                <div className="mobile">
+                    <img className="into-img mob-img" src={IntroImgMob} alt="IntroImgMob" />
+                </div>
                 {/* <Suspense fallback={<div className="loading">Loading...</div>}>
                     <Spline className="spline" scene="https://prod.spline.design/1VrKzBiZHT2yRppB/scene.splinecode" />
                 </Suspense> */}
